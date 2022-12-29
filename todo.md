@@ -1,0 +1,13 @@
+- Testar o logo contraindo
+- Mudança de página?
+- Selecionar Região libera Cidade
+- Clicar no botão adicionar pokemon renderiza um dropdown
+- Limite de renderização de 6 dropdowns
+- Selecionar Data libera Horário
+- Valores: 
+    - Numero de pokemons atendidos
+    - subtotal
+    - taxa geracional
+    - valor total
+- concluir agendamento com os valores digitados
+- mensagem de erro
