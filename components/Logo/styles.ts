@@ -30,6 +30,7 @@ export const StyledLogo = styled.div`
     animation: hideEl 1s linear 1s both;
     white-space: nowrap;
     width: 162px;
+    display: block;
   }
 
   @keyframes minimize {
@@ -47,6 +48,7 @@ export const StyledLogo = styled.div`
 
   @keyframes hideEl {
     to {
+      display: none;
       visibility: hidden;
       opacity: 0;
       width: 0px;
@@ -54,6 +56,7 @@ export const StyledLogo = styled.div`
   }
   @keyframes showEl {
     to {
+      display: block;
       visibility: visible;
       opacity: 1;
       width: 162px;
